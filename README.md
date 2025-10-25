@@ -9,6 +9,9 @@ Install `@commitlint/config-conventional`
 npm install -D @commitlint/cli @commitlint/config-conventional
 ```
 
+After installation, create `.gitignore` file then write in it `node_modules/` to
+ignore `node_modules` from being uploaded to github.
+
 #### Configuration
 Configure commitlint to use conventional config
 ```sh
