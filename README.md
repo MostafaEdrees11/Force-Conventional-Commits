@@ -27,8 +27,6 @@ npm install --save-dev husky
 
 # husky@v9
 npx husky init
-# husky@v8 or lower
-npx husky install
 
 # Add commit message linting to commit-msg hook
 echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
@@ -37,7 +35,7 @@ echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
 
 ### Notes
 - Delete the pre-commit file created inside `.husky' folder
-- Edit the extension of `commitlint.config.js' file to `commitlint.config.mjs`
+- Edit the extension of `commitlint.config.js` file to `commitlint.config.mjs`
 
 
 You are ready now 😇✌.
